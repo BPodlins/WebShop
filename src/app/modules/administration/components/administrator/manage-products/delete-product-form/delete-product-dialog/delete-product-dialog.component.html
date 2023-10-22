@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Do you want to delete the product?</h2>
+<mat-dialog-content>
+  <app-alert *ngIf='errorMessage' [message]='errorMessage' alertType='warning'></app-alert>
+
+  <div *ngIf='product'>
+    <p class='text-center'>{{product.name}}</p>
+    <p class='text-center'>{{product.price | currency: 'zł'}}</p>
+
+    <div class='my-2'>
+      <img [src]='product.imageUrls[0]' class='img-fluid mx-auto d-block' [alt]='product.name'>
+    </div>
+
+    <p>{{product.mainDesc}}</p>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align='end'>
+  <button mat-raised-button mat-dialog-close>Cancel</button>
+  <button mat-raised-button color='accent' (click)='deleteProduct()'>Delete</button>
+</mat-dialog-actions>

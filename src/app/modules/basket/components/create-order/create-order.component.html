@@ -1,0 +1,19 @@
+<section>
+  <div class='row'>
+    <div class='col-md-6'>
+      <app-customer-form></app-customer-form>
+    </div>
+    <div class='col-md-6'>
+      <app-address-form></app-address-form>
+    </div>
+    <div class='col-12'>
+      <app-delivery-form></app-delivery-form>
+    </div>
+  </div>
+
+  <div class='d-flex justify-content-end'>
+    <button mat-raised-button color='primary' (click)='order()'>Order and pay</button>
+  </div>
+
+  <app-alert *ngIf='errorMsg' [alertType]='"warning"' [message]='errorMsg'></app-alert>
+</section>

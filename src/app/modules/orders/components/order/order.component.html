@@ -1,0 +1,26 @@
+<section *ngIf='order'>
+  <p>Order number: {{order.orders}}</p>
+  <p>Order status: <b>{{order.status}}</b></p>
+  <p>Order price: {{order.summaryPrice | currency: 'zł'}}</p>
+  <div class='row my-2'>
+    <div class='col-md-6' *ngIf='order.address as address'>
+      <h2>Shipping address</h2>
+      <p>City: {{address.city}}</p>
+      <p>Street: {{address.street}}</p>
+      <p>Flat number: {{address.number}}</p>
+      <p>Postal code: {{address.postCode}}</p>
+    </div>
+    <div class='col-md-6'>
+      <h2>Shipping method:</h2>
+      <p>{{order.deliver.name}}</p>
+    </div>
+  </div>
+  <div class='row'>
+    <h2>Order contains:</h2>
+    <div class='basket-product' *ngFor='let basketProduct of order.items'>
+      <app-basket-product [basketView]='false' [basketProduct]='basketProduct'></app-basket-product>
+    </div>
+  </div>
+</section>
+
+<app-alert *ngIf='errorMsg' [message]='errorMsg' [alertType]='"warning"'></app-alert>
