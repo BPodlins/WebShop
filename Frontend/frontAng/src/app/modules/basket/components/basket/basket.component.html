@@ -1,0 +1,22 @@
+<div class='row' *ngIf='basketProducts.length === 0'>
+  <p>Basket is empty. Select product</p>
+</div>
+
+<div class='row' *ngIf='basketProducts.length > 0'>
+  <div class='col-md-9'>
+    <div class='basket-product' *ngFor='let basketProduct of basketProducts'>
+      <app-basket-product (deleteProductUuid)='deleteProduct($event)' [basketProduct]='basketProduct'></app-basket-product>
+    </div>
+  </div>
+
+  <div class='col-md-3'>
+    <div class='summary-wrapper'>
+      <h2 class='text-center summary-heading'>Sum:</h2>
+      <p class='text-center'>Price without shipping:</p>
+      <p class='text-center'>{{summaryPrice | currency: 'zł'}}</p>
+      <div class='d-flex justify-content-center'>
+        <button mat-raised-button color='primary' (click)='navigateToCreateOrder()'>Go to shop</button>
+      </div>
+    </div>
+  </div>
+</div>
