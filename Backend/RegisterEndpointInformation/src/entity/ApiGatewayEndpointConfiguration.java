@@ -1,4 +1,6 @@
-import org.coffeecode.entity.Endpoint;
+package entity;
+
+import entity.Endpoint;
 
 import java.util.ArrayList;
 import java.util.List;

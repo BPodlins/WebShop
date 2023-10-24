@@ -1,5 +1,6 @@
 package com.example.order;
 
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class OrderApplication {

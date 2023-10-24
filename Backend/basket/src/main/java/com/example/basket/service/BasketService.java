@@ -1,5 +1,4 @@
 package com.example.basket.service;
-
 import com.example.basket.entity.*;
 import com.example.basket.exceptions.BasketItemDontExistException;
 import com.example.basket.exceptions.NoBasketInfoException;
@@ -30,7 +29,6 @@ public class BasketService {
     private final CookieService cookieService;
     @Value("${product.service.url}")
     private String PRODUCT_URL;
-
 
     public ResponseEntity<?> add(BasketItemAddDTO basketItemAddDTO, HttpServletRequest request, HttpServletResponse response) {
         HttpHeaders httpHeaders = new HttpHeaders();
@@ -63,16 +61,6 @@ public class BasketService {
                 });
         return ResponseEntity.ok().headers(httpHeaders).body(new Response("Successful add item to basket"));
     }
-
-
-
-
-
-
-
-
-
-
 
     private Basket createBasket() {
         Basket basket = new Basket();
@@ -110,12 +98,6 @@ public class BasketService {
         return (Product) response.getBody();
     }
 
-
-
-
-
-
-
     public ResponseEntity<Response> delete(String uuid, HttpServletRequest request) {
         HttpHeaders httpHeaders = new HttpHeaders();
         List<Cookie> cookies = new ArrayList<>();
@@ -145,12 +127,6 @@ public class BasketService {
         Long sum = basketItemRepository.sumBasketItems(basket.getId());
         if (sum==null || sum == 0) basketRepository.delete(basket);
     }
-
-
-
-
-
-
 
     public ResponseEntity<?> getItems(HttpServletRequest request) {
         List<Cookie> cookies = new ArrayList<>();
@@ -186,5 +162,4 @@ public class BasketService {
         if (httpHeaders.isEmpty()) httpHeaders.add("X-Total-Count", String.valueOf(0));
         return ResponseEntity.ok().headers(httpHeaders).body(listBasketItemDTO);
     }
-
 }
