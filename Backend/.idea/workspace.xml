@@ -4,88 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed0d781b-73f5-4bf3-85db-124797026eb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_15_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_15_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_jersey3_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_jersey3_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_11_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_spring_bridge_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_connectors_jersey_apache_connector_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_29_2_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_4_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basket/src/main/resources/db/V30_InitTables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/config/Carousel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ed0d781b-73f5-4bf3-85db-124797026eb3" name="Changes" comment="rewritten basket, eureka, auth properties, started gatway">
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/entity/Endpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/entity/HttpMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/entity/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/filter/RouteValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/utils/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterEndpointInformation/src/ApiGatewayEndpointConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterEndpointInformation/src/entity/ApiGatewayEndpointConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/basket.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/BasketApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/configuration/ApiGatewayEndpointConfigurationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/configuration/ApiGatewayEndpointConfigurationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/controller/BasketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/controller/BasketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/repository/BasketItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/repository/BasketItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/repository/BasketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/repository/BasketRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/service/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/service/BasketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/service/CookieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basket/src/main/java/com/example/basket/service/CookieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/main/resources/db/migration/V30__InitTables.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/src/test/java/com/example/basket/BasketApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/example/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/example/eureka/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/GatwayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/GatwayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gatway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,18 +47,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-21" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/basket/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/basket/src/main/java/com/example/basket/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/entity" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projekty\WebShop\Backend\gatway\src\main\java\com\example\gatway\entity" />
       <recent name="C:\Projekty\WebShop\Backend\basket\src\main\java\com\example\basket\entity" />
       <recent name="C:\Projekty\WebShop\Backend\order\src\main\resources" />
       <recent name="C:\Projekty\WebShop\Backend\order\src\main\java\com\example\order" />
       <recent name="C:\Projekty\WebShop\Backend\gateway\src\main\resources" />
-      <recent name="C:\Projekty\WebShop\Backend\gateway\src\main\java\com\example\gateway" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.basket.entity" />
@@ -182,6 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gatway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gatway.GatwayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.productservice.ProductServiceApplication" />
@@ -201,8 +139,17 @@
       <workItem from="1698005789963" duration="4979000" />
       <workItem from="1698014397276" duration="1501000" />
       <workItem from="1698165735476" duration="2663000" />
-      <workItem from="1698172675245" duration="3768000" />
+      <workItem from="1698172675245" duration="4118000" />
+      <workItem from="1698213357859" duration="1240000" />
     </task>
+    <task id="LOCAL-00001" summary="rewritten basket, eureka, auth properties, started gatway">
+      <created>1698177916954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698177916954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,5 +166,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rewritten basket, eureka, auth properties, started gatway" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewritten basket, eureka, auth properties, started gatway" />
   </component>
 </project>
