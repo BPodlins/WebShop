@@ -1,6 +1,5 @@
 package com.example.order.service;
 
-
 import com.example.order.entity.*;
 import com.example.order.exception.BasketDontExistException;
 import com.example.order.exception.EmptyBasketException;
@@ -15,12 +14,9 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.client.HttpClientErrorException;
-
 import java.time.LocalDate;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicReference;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -30,7 +26,7 @@ public class OrderService {
     private final DeliverRepository deliverRepository;
     private final BasketService basketService;
     private final ItemService itemService;
-    private final PayuService payuService;
+    private final PayUService payuService;
     private final BasketItemDTOToOrderItems basketItemDTOToItems;
     private final EmailService emailService;
     private final AuthService authService;
@@ -90,15 +86,16 @@ public class OrderService {
             value.setStatus(notify.getOrder().getStatus());
             orderRepository.save(value);
         },()->{
-         throw new OrderDontExistException();
+            throw new OrderDontExistException();
         });
     }
 
     public Order getOrderByUuid(String uuid) {
-       return orderRepository.findOrderByUuid(uuid).orElseThrow(OrderDontExistException::new);
+        return orderRepository.findOrderByUuid(uuid).orElseThrow(OrderDontExistException::new);
     }
 
     public List<Order> getOrdersByClient(String login) {
         return orderRepository.findOrderByClient(login);
     }
+
 }

@@ -8,7 +8,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
@@ -33,9 +32,6 @@ public class SignatureValidator {
         for (byte b : digest) {
             hexString.append(String.format("%02x", b));
         }
-//        if (!hexString.toString().equals(signature.get("signature"))){
-//            throw new BadSignatureException();
-//        }
     }
 
 

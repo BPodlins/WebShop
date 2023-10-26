@@ -1,6 +1,5 @@
 package com.example.order.exception;
 
-
 public class OrderDontExistException extends RuntimeException{
     public OrderDontExistException() {
         super();

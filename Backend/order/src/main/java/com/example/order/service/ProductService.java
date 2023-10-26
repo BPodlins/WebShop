@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
 import java.net.URI;
 import java.net.URISyntaxException;
 
 @Service
 @RequiredArgsConstructor
 public class ProductService {
+
     private final RestTemplate restTemplate;
     @Value("${product.service}")
     private String PRODUCT_URL;

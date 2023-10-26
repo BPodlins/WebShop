@@ -12,7 +12,6 @@ public abstract class DeliverToDeliverDTO {
         return translate(deliver);
     }
 
-
     @Mappings({})
     protected abstract DeliverDTO translate(Deliver deliver);
 }

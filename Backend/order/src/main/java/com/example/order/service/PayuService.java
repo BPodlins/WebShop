@@ -11,14 +11,12 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
-
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 @Service
 @RequiredArgsConstructor
-public class PayuService {
-
+public class PayUService {
     private final OrderItemsToPayuProduct orderItemsToPayuProduct;
     private final RestTemplate restTemplate;
     @Value("${payu.client-id}")
@@ -78,7 +76,7 @@ public class PayuService {
 
     private PayUOrder prepareOrder(Order order, List<OrderItems> items) {
         AtomicLong totalprice = new AtomicLong();
-        List<PayuProduct> product = items.stream().map(orderItemsToPayuProduct::toPayuProduct).toList();
+        List<PayUProduct> product = items.stream().map(orderItemsToPayuProduct::toPayuProduct).toList();
         product.forEach(value -> totalprice.set(value.getUnitPrice() * value.getQuantity() * 100));
         PayUBuyer buyer = new PayUBuyer(order.getEmail(), order.getPhone(), order.getFirstName(), order.getLastName());
         return new PayUOrder(payu_url_notf,
@@ -91,6 +89,4 @@ public class PayuService {
                 buyer,
                 product);
     }
-
-
 }

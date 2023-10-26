@@ -4,12 +4,14 @@ import com.example.gatway.entity.Endpoint;
 import com.example.gatway.entity.HttpMethod;
 import com.example.gatway.entity.Role;
 import org.springframework.http.server.reactive.ServerHttpRequest;
+import org.springframework.stereotype.Component;
 
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.function.Predicate;
 
+@Component
 public class RouteValidator {
     public Set<Endpoint> openApiEndpoints = new HashSet<>(List.of(
             new Endpoint("/auth/logout", HttpMethod.GET, Role.GUEST),

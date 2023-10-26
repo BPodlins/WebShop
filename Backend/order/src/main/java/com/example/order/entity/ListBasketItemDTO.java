@@ -1,6 +1,9 @@
 package com.example.order.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 
@@ -11,5 +14,4 @@ import java.util.List;
 public class ListBasketItemDTO {
     private List<BasketItemDTO> basketProducts;
     private double summaryPrice;
-
 }

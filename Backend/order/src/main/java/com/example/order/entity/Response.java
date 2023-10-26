@@ -1,7 +1,6 @@
 package com.example.order.entity;
 
 import lombok.Getter;
-
 import java.sql.Timestamp;
 
 @Getter

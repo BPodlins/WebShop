@@ -1,6 +1,5 @@
 package com.example.order.entity;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,6 +13,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "orders")
 public class Order {
+
     @Id
     @GeneratedValue(generator = "orders_id_seq",strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(name = "orders_id_seq",sequenceName = "orders_id_seq", allocationSize = 1)

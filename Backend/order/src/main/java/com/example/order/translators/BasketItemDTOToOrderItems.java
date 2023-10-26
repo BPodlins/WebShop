@@ -1,6 +1,5 @@
 package com.example.order.translators;
 
-
 import com.example.order.entity.BasketItemDTO;
 import com.example.order.entity.OrderItems;
 import org.mapstruct.Mapper;
@@ -9,8 +8,6 @@ import org.mapstruct.Mappings;
 
 @Mapper
 public abstract class BasketItemDTOToOrderItems {
-
-
     public OrderItems toOrderItems(BasketItemDTO basketItemDTO){
         return translate(basketItemDTO);
     }

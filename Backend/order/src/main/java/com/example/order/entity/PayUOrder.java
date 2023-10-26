@@ -1,6 +1,5 @@
 package com.example.order.entity;
 
-
 import lombok.*;
 
 import java.util.List;
@@ -19,5 +18,5 @@ public class PayUOrder {
     private long totalAmount;
     private String extOrderId;
     private PayUBuyer buyer;
-    private List<PayuProduct> products;
+    private List<PayUProduct> products;
 }

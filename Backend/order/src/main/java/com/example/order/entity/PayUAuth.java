@@ -14,5 +14,4 @@ public class PayUAuth {
     private String token_type;
     private long expires_in;
     private String grant_type;
-
 }

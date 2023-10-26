@@ -36,5 +36,5 @@ CREATE TABLE order_items
     orders bigint REFERENCES  orders(id)
 );
 
-insert into deliver values (1,'XYZ-123','Kurier XYZ',12.50);
-insert into deliver values (2,'XYZ-125','Kurier ZYX',60.50);
+insert into deliver values (1,'XYZ-123','Courier XYZ',12.50);
+insert into deliver values (2,'XYZ-125','Courier ZYX',60.50);

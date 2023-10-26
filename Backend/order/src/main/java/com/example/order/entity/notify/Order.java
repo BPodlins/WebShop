@@ -2,7 +2,6 @@ package com.example.order.entity.notify;
 
 import com.example.order.entity.Status;
 import lombok.*;
-
 import java.util.List;
 
 @Getter

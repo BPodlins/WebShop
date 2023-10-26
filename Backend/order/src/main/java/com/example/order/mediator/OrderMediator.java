@@ -1,5 +1,6 @@
 package com.example.order.mediator;
 
+
 import com.example.order.entity.*;
 import com.example.order.exception.BadSignatureException;
 import com.example.order.exception.OrderDontExistException;
@@ -13,11 +14,9 @@ import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
-
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,14 +1,13 @@
 package com.example.order.translators;
 
 import com.example.order.entity.OrderItems;
-import com.example.order.entity.PayuProduct;
+import com.example.order.entity.PayUProduct;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
-@Mapper
 public abstract class OrderItemsToPayuProduct {
-    public PayuProduct toPayuProduct(OrderItems orderItems){
+    public PayUProduct toPayuProduct(OrderItems orderItems){
         return translate(orderItems);
     }
 
@@ -16,5 +15,5 @@ public abstract class OrderItemsToPayuProduct {
     @Mappings({
             @Mapping(source = "priceUnit",target = "unitPrice")
     })
-    protected abstract PayuProduct translate(OrderItems orderItems);
+    protected abstract PayUProduct translate(OrderItems orderItems);
 }

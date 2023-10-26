@@ -8,13 +8,10 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
-@Mapper
 public abstract class OrderDTOToOrder {
-
     public Order toOrder(OrderDTO orderDTO){
         return translate(orderDTO);
     }
-
 
     @Mappings({
             @Mapping(expression = "java(orderDTO.getCustomerDetails().getFirstName())",target = "firstName"),
@@ -28,7 +25,6 @@ public abstract class OrderDTOToOrder {
             @Mapping(expression = "java(translate(orderDTO.getDeliver()))",target = "deliver"),
     })
     protected abstract Order translate(OrderDTO orderDTO);
-
 
     @Mappings({})
     protected abstract Deliver translate(DeliverDTO deliverDTO);

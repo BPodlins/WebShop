@@ -1,6 +1,5 @@
 package com.example.order.entity.notify;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

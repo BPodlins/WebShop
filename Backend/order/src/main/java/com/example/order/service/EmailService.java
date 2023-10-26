@@ -8,9 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
-
 import java.io.IOException;
-
 
 @Service
 @RequiredArgsConstructor
@@ -29,10 +27,10 @@ public class EmailService {
         log.info("--START sendOrder");
         try{
             String html = Files.toString(orderTemplate.getFile(), Charsets.UTF_8);
-            html = html.replace("https://google.com",fontendUrl+"/zamowienia/"+uuid);
-            emailConfiguration.sendMail(mail, html,"Utworzono zamówienie",true);
+            html = html.replace("https://google.com",fontendUrl+"/orders/"+uuid);
+            emailConfiguration.sendMail(mail, html,"Created order",true);
         }catch (IOException e){
-            log.info("Cant send mail");
+            log.info("Could not send mail");
             throw new RuntimeException(e);
         }
         log.info("--STOP sendOrder");

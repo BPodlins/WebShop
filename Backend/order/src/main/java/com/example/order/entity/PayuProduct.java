@@ -7,7 +7,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class PayuProduct {
+public class PayUProduct {
     private String name;
     private long unitPrice;
     private long quantity;

@@ -1,7 +1,6 @@
 package com.example.order.service;
 
 import com.example.order.entity.UserRegisterDTO;
-import com.example.order.exception.UserDontLoginException;
 import jakarta.servlet.http.Cookie;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -9,7 +8,6 @@ import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
-
 import java.util.List;
 
 @Service

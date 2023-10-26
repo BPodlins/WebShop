@@ -5,8 +5,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
-@Mapper
-public abstract  class OrderToOrderDTO {
+public abstract class OrderToOrderDTO {
     public OrderDTO toOrderDTO(Order order){
         return translate(order);
     }
@@ -27,5 +26,4 @@ public abstract  class OrderToOrderDTO {
 
     @Mappings({})
     protected abstract DeliverDTO translateDeliver(Deliver deliver);
-
 }

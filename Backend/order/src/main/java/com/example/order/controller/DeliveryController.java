@@ -1,6 +1,5 @@
 package com.example.order.controller;
 
-
 import com.example.order.entity.DeliverDTO;
 import com.example.order.service.DeliverService;
 import lombok.RequiredArgsConstructor;
@@ -13,8 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/api/v1/deliver")
 @RequiredArgsConstructor
-public class DeliverController {
-
+public class DeliveryController {
     private final DeliverService deliverService;
 
     @RequestMapping(method = RequestMethod.GET)

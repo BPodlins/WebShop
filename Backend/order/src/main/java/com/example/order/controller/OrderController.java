@@ -1,10 +1,8 @@
 package com.example.order.controller;
 
-
 import com.example.order.entity.OrderDTO;
 import com.example.order.entity.Response;
 import com.example.order.entity.notify.Notify;
-import com.example.order.entity.notify.Order;
 import com.example.order.exception.*;
 import com.example.order.mediator.OrderMediator;
 import jakarta.servlet.http.HttpServletRequest;
@@ -27,10 +25,10 @@ public class OrderController {
     }
     @RequestMapping(method = RequestMethod.POST,value = "/notification")
     public ResponseEntity<Response> notifyOrder(@RequestBody Notify notify, HttpServletRequest request){
-            return orderMediator.handleNotify(notify,request);
+        return orderMediator.handleNotify(notify,request);
     }
     @RequestMapping(method = RequestMethod.GET)
-    public ResponseEntity<?> get(@RequestParam(required = false) String uuid,HttpServletRequest request){
+    public ResponseEntity<?> get(@RequestParam(required = false) String uuid, HttpServletRequest request){
         return orderMediator.getOrder(uuid,request);
     }
 
@@ -42,17 +40,17 @@ public class OrderController {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(BasketDontExistException.class)
     public Response handleValidationExceptions(BasketDontExistException ex){
-        return new Response("Basket dont exist for this session");
+        return new Response("Basket does not exist for this session");
     }
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(PayUException.class)
     public Response handleValidationExceptions(PayUException ex){
-        return new Response("Server error contact with administrator");
+        return new Response("Server error; contact with administrator");
     }
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(UknowDeliverTypException.class)
     public Response handleValidationExceptions(UknowDeliverTypException ex){
-        return new Response("Deliver don't exist with this uuid");
+        return new Response("Deliver with this uuid does not exist");
     }
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(UserDontLoginException.class)
@@ -62,6 +60,6 @@ public class OrderController {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(OrderDontExistException.class)
     public Response handleValidationExceptions(OrderDontExistException ex){
-        return new Response("Order don't exist");
+        return new Response("Order does not exist");
     }
 }
