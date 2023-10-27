@@ -4,78 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed0d781b-73f5-4bf3-85db-124797026eb3" name="Changes" comment="further gatway updates">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_mail_jakarta_mail_api_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_5_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_4_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/DeliveryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/db/V40_InitTables.sql" afterDir="false" />
+    <list default="true" id="ed0d781b-73f5-4bf3-85db-124797026eb3" name="Changes" comment="finished gatway + order updates">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/configuration/ApiGatewayEndpointConfigurationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/entity/ImageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/entity/ImageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/entity/ImageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/exceptions/FtpConnectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/mediator/MediatorImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/service/FtpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/example/fileservice/service/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/resources/db/V20_InitTable.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/configuration/ApiGatewayEndpointConfigurationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/ProductFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/entity/SimpleProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/exceptions/CategoryDontExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/exceptions/ObjectExistInDBException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/mediator/CategoryMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/mediator/ProductMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/translator/CategoryToCategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/translator/ProductEntityToProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/translator/ProductEntityToSimpleProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/translator/ProductFormToProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/db/V_10InitProducts.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/filter/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/filter/RouteValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatway/src/main/java/com/example/gatway/filter/RouteValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/configuration/EmailConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/configuration/EmailConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/DeliverController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/BasketItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/BasketItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/CustomerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/CustomerDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Deliver.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Deliver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/DeliverDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/DeliverDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/ListBasketItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/ListBasketItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/OrderItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/OrderItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayUAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayUAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayUBuyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayUBuyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayUOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayUOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayuProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/PayuProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/UserRegisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/UserRegisterDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Buyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/PayMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/PayMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/entity/notify/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/BadSignatureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/BadSignatureException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/BasketDontExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/BasketDontExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/EmptyBasketException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/EmptyBasketException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/OrderDontExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/OrderDontExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/PayUException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/PayUException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/UknowDeliverTypException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/UknowDeliverTypException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/UserDontLoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/exception/UserDontLoginException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/mediator/OrderMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/mediator/OrderMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/DeliverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/DeliverRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/BasketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/DeliverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/DeliverService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/PayuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/PayuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/SignatureValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/SignatureValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/BasketItemDTOToOrderItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/BasketItemDTOToOrderItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/DeliverToDeliverDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/DeliverToDeliverDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderDTOToOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderDTOToOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderItemsToItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderItemsToItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderItemsToPayuProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderItemsToPayuProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderToOrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/translators/OrderToOrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/db/migration/V40__InitTables.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/static/mail-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/static/mail-order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -211,7 +184,8 @@
       <workItem from="1698172675245" duration="4118000" />
       <workItem from="1698213357859" duration="1361000" />
       <workItem from="1698312134845" duration="3664000" />
-      <workItem from="1698317100362" duration="6096000" />
+      <workItem from="1698317100362" duration="6974000" />
+      <workItem from="1698391209471" duration="5331000" />
     </task>
     <task id="LOCAL-00001" summary="rewritten basket, eureka, auth properties, started gatway">
       <created>1698177916954</created>
@@ -227,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698215060670</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished gatway + order updates">
+      <created>1698324445923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698324445924</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +229,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rewritten basket, eureka, auth properties, started gatway" />
     <MESSAGE value="further gatway updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="further gatway updates" />
+    <MESSAGE value="finished gatway + order updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished gatway + order updates" />
   </component>
 </project>
