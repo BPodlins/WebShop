@@ -8,6 +8,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
+@Mapper
 public abstract class OrderDTOToOrder {
     public Order toOrder(OrderDTO orderDTO){
         return translate(orderDTO);

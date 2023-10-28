@@ -6,6 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
+@Mapper
 public abstract class ProductEntityToSimpleProduct {
     public SimpleProductDTO toSimpleProduct(ProductEntity productEntity){
         return toSimpleProductDTO(productEntity);
