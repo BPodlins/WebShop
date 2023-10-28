@@ -3,8 +3,8 @@ package com.example.gatway.config;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +16,7 @@ public class Carousel {
     List<InstanceInfo> instances = new ArrayList<>();
     int currentIndex = 0;
 
+    @Autowired
     public Carousel(EurekaClient eurekaClient){
         this.eurekaClient = eurekaClient;
         try{
