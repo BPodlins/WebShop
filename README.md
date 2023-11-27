@@ -6,5 +6,6 @@ Shopping app that allows user to purcharse products, there is authorization and 
 - Java
 - Spring
 - Angular
+- NGinx
 - PostgreSQL
-- Docker
+- Docker (docker compose)
